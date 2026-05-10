@@ -2,13 +2,13 @@ import { ButtonBuilder, ElementBuilder, MovieBuilder } from "./builders.js";
 
 // Externalized message strings
 const messages = {
-  dataLoadError: 'Daten konnten nicht geladen werden, Status',
-  movieAlreadyInCollection: 'Film bereits in der Sammlung.',
-  addMovieFailed: 'Hinzufügen des Films ist fehlgeschlagen.',
-  deleteMovieFailed: 'Film konnte nicht gelöscht werden.',
-  noResultsFound: 'Keine Ergebnisse gefunden.',
-  searchFailed: 'Die Suche ist fehlgeschlagen...',
-  loggedOutGreeting: 'Bitte logge dich ein, um deine Filmkollektion zu sehen.',
+  dataLoadError: 'Data could not be loaded, Status',
+  movieAlreadyInCollection: 'Movie is alredy in collection.',
+  addMovieFailed: 'Failed to add movie.',
+  deleteMovieFailed: 'Failed to delete movie.',
+  noResultsFound: 'No results found.',
+  searchFailed: 'Search failed',
+  loggedOutGreeting: 'Please log in to see your movie collection.',
   loginFailed: 'Login failed'
 };
 
@@ -164,10 +164,29 @@ window.onload = function () {
 
   function renderUserGreeting() {
     const greetingElement = document.getElementById('userGreeting');
-    if (currentSession) {
+    if (!greetingElement) return;
+
+    if (currentSession && currentSession.loginTime) {
       // Task 1.2: Render a user greeting to `#userGreeting` 
       // using `firstName`, `lastName`, and the server-provided
       // login timestamp.
+      const { firstName = '', lastName = ''} = currentSession;
+      const date = new Date(currentSession.loginTime);
+
+      const lastDate = new Intl.DateTimeFormat('en-EN', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric',
+      }).format(date);
+
+      const lastTime = new Intl.DateTimeFormat('en-EN', {
+        hour: '2-digit',
+        minute: '2-digit'
+      }).format(date);
+
+      greetingElement.textContent =
+        'Hello ' + firstName + ' ' + lastName + ', you have logged in on ' + lastDate +' at ' + lastTime +'.';
+
     } else {
       greetingElement.textContent = messages.loggedOutGreeting;
     }
@@ -208,14 +227,41 @@ window.onload = function () {
   }
 
   // Login dialog
-  document.getElementById('loginForm').addEventListener('submit', (e) => {
+  document.getElementById('loginForm').addEventListener('submit', async (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
 
+    // Read values from login form
     // Task 1.1: Implement the login submit flow to call `POST /login` 
     // with username and password, handle errors, save the response 
     // into `currentSession`, then call `updateUI()` and `loadMovies()`.
 
+    const formData = new FormData(e.target);
+    const username = formData.get('username');
+    const password = formData.get('password')
+
+    try {
+      //send login date to server
+      const response = await fetch('/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({username, password})
+      });
+
+      //if login fails on server
+      if (!response.ok){
+        throw new Error ('Login failed');
+      }
+
+      //save session data, close login dialog & load user movies
+      currentSession = await response.json();
+      document.getElementById('loginDialog').close();
+      updateUI();
+      loadMovies();
+    } catch (error) {
+      alert('Login failed. Please check your username and password.');
+    }
   });
 
   document.getElementById('cancelLogin').addEventListener('click', () => {
