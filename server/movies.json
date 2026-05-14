@@ -1,30 +1,5 @@
 {
   "joe": {
-    "tt0399295": {
-      "imdbID": "tt0399295",
-      "Title": "Lord of War",
-      "Released": "2005-09-15",
-      "Runtime": 122,
-      "Genres": [
-        "Crime",
-        "Drama"
-      ],
-      "Directors": [
-        "Andrew Niccol"
-      ],
-      "Writers": [
-        "Andrew Niccol"
-      ],
-      "Actors": [
-        "Nicolas Cage",
-        "Ethan Hawke",
-        "Jared Leto"
-      ],
-      "Plot": "An arms dealer confronts the morality of his work as he is being chased by an INTERPOL Agent.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNThlY2NkYmMtNTFhNi00MzBiLWJmNzEtZjk5MzYwYWU2MjllXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 62,
-      "imdbRating": 7.6
-    },
     "tt0167260": {
       "imdbID": "tt0167260",
       "Title": "The Lord of the Rings: The Return of the King",
@@ -53,32 +28,114 @@
       "Metascore": 94,
       "imdbRating": 9
     },
-    "tt0057261": {
-      "imdbID": "tt0057261",
-      "Title": "Lord of the Flies",
-      "Released": "1963-08-12",
-      "Runtime": 92,
+    "tt0903624": {
+      "imdbID": "tt0903624",
+      "Title": "The Hobbit: An Unexpected Journey",
+      "Released": "2012-12-13",
+      "Runtime": 169,
       "Genres": [
         "Adventure",
-        "Drama",
-        "Thriller"
+        "Fantasy"
       ],
       "Directors": [
-        "Peter Brook"
+        "Peter Jackson"
       ],
       "Writers": [
-        "William Golding",
-        "Peter Brook"
+        "Fran Walsh",
+        "Philippa Boyens",
+        "Peter Jackson"
       ],
       "Actors": [
-        "James Aubrey",
-        "Tom Chapin",
-        "Hugh Edwards"
+        "Martin Freeman",
+        "Ian McKellen",
+        "Richard Armitage"
       ],
-      "Plot": "Schoolboys marooned on a Pacific island create their own savage civilization.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BY2RiOTM0ZDgtNDRlMi00MDMzLWI1NDYtY2NjZDM4YTkwNWVlXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 67,
-      "imdbRating": 6.9
+      "Plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home and the gold within it from the dragon Smaug.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 58,
+      "imdbRating": 7.8
+    },
+    "tt4772188": {
+      "imdbID": "tt4772188",
+      "Title": "Flow",
+      "Released": "2025-02-13",
+      "Runtime": 85,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "Directors": [
+        "Gints Zilbalodis"
+      ],
+      "Writers": [
+        "Gints Zilbalodis",
+        "Matiss Kaza",
+        "Ron Dyens"
+      ],
+      "Actors": [
+        "Gints Zilbalodis",
+        "Thomas Oldman",
+        "Alexander David Bobson"
+      ],
+      "Plot": "Cat is a solitary animal, but as its home is devastated by a great flood, he finds refuge on a boat populated by various species, and will have to team up with them despite their differences.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTM5ODBlOTAtYjcwZi00YzkzLWIzODEtMTM2MTZlNDFmMWU2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 87,
+      "imdbRating": 7.9
+    },
+    "tt0029583": {
+      "imdbID": "tt0029583",
+      "Title": "Snow White and the Seven Dwarfs",
+      "Released": "1938-02-03",
+      "Runtime": 83,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "Directors": [
+        "William Cottrell",
+        "David Hand",
+        "Wilfred Jackson"
+      ],
+      "Writers": [
+        "Jacob Grimm",
+        "Wilhelm Grimm",
+        "Ted Sears"
+      ],
+      "Actors": [
+        "Adriana Caselotti",
+        "Harry Stockwell",
+        "Lucille La Verne"
+      ],
+      "Plot": "Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwMzE2Mzc4M15BMl5BanBnXkFtZTcwMTE4NTc1Nw@@._V1_SX300.jpg",
+      "Metascore": 96,
+      "imdbRating": 7.6
+    },
+    "tt5613056": {
+      "imdbID": "tt5613056",
+      "Title": "Piper",
+      "Released": "2016-06-16",
+      "Runtime": 6,
+      "Genres": [
+        "Animation",
+        "Short",
+        "Family"
+      ],
+      "Directors": [
+        "Alan Barillaro"
+      ],
+      "Writers": [
+        "Alan Barillaro"
+      ],
+      "Actors": [
+        "Bui Quoc Huy Steve"
+      ],
+      "Plot": "A hungry sandpiper hatchling ventures from her nest for the first time to dig for food by the shoreline. The problem is, the food is buried in the sand where scary waves roll up.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDU1ZTYwNmYtNjM1Zi00NTlkLWI5ZmQtNjM2OWM0ZTMxYTFlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 8.3
     }
   },
   "jane": {
@@ -110,62 +167,31 @@
       "Metascore": 41,
       "imdbRating": 6.7
     },
-    "tt0360717": {
-      "imdbID": "tt0360717",
-      "Title": "King Kong",
-      "Released": "2005-12-13",
-      "Runtime": 187,
+    "tt0349683": {
+      "imdbID": "tt0349683",
+      "Title": "King Arthur",
+      "Released": "2004-07-06",
+      "Runtime": 126,
       "Genres": [
         "Action",
-        "Adventure",
-        "Romance"
-      ],
-      "Directors": [
-        "Peter Jackson"
-      ],
-      "Writers": [
-        "Fran Walsh",
-        "Philippa Boyens",
-        "Peter Jackson"
-      ],
-      "Actors": [
-        "Naomi Watts",
-        "Jack Black",
-        "Adrien Brody"
-      ],
-      "Plot": "A greedy film producer assembles a team of moviemakers and sets out for the infamous Skull Island, where they find more than just cannibalistic natives.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMWY0NWE0ZjUtNjRlOS00ZDViLTgxNTQtMGMwN2FhNDY1YTg2XkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 81,
-      "imdbRating": 7.2
-    },
-    "tt0110357": {
-      "imdbID": "tt0110357",
-      "Title": "The Lion King",
-      "Released": "1994-06-23",
-      "Runtime": 88,
-      "Genres": [
-        "Animation",
         "Adventure",
         "Drama"
       ],
       "Directors": [
-        "Roger Allers",
-        "Rob Minkoff"
+        "Antoine Fuqua"
       ],
       "Writers": [
-        "Irene Mecchi",
-        "Jonathan Roberts",
-        "Linda Woolverton"
+        "David Franzoni"
       ],
       "Actors": [
-        "Matthew Broderick",
-        "Jeremy Irons",
-        "James Earl Jones"
+        "Clive Owen",
+        "Stephen Dillane",
+        "Keira Knightley"
       ],
-      "Plot": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 88,
-      "imdbRating": 8.5
+      "Plot": "A demystified take on the tale of King Arthur and the Knights of the Round Table.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTk4MTk1NjI0OV5BMl5BanBnXkFtZTcwNDQxOTUyMQ@@._V1_SX300.jpg",
+      "Metascore": 46,
+      "imdbRating": 6.3
     }
   }
 }

@@ -25,7 +25,9 @@ function updateGenres() {
     return;
   }
 
-  fetch("/genres")
+  fetch("/genres",{
+    credentials: 'same-origin' 
+  })
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
@@ -64,7 +66,9 @@ function loadMovies(genre) {
     url.searchParams.set("genre", genre);
   }
 
-  fetch(url)
+  fetch(url,{
+    credentials: 'same-origin'
+  })
     .then(response => {
       removeMovies();
       const mainElement = document.querySelector("main");
@@ -84,12 +88,16 @@ function loadMovies(genre) {
 }
 
 function addMovie(imdbID) {
-  fetch(`/movies/${imdbID}`, { method: 'PUT' })
+  fetch(`/movies/${imdbID}`, {
+    method: 'PUT',
+    credentials: 'same-origin'
+  })
     .then(response => {
       if (response.status === 201) {
         // Task 2.2: Make sure to remove the added movie from the search results to avoid
         // giving the user the option to add it again.
-    
+        const row = document.querySelector('[data-imdbid="' + imdbID + '"]');
+        if (row) row.remove();
         loadMovies();
         updateGenres();
       } else if (response.status === 200) {
@@ -105,9 +113,12 @@ function addMovie(imdbID) {
 }
 
 function deleteMovie(imdbID) {
-  fetch(`/movies/${imdbID}`, { method: 'DELETE' })
+  fetch(`/movies/${imdbID}`, {
+    method: 'DELETE',
+    credentials: 'same-origin'
+  })
     .then(response => {
-      if (response.ok) {
+      if (response.status===200||response.status) {
         const article = document.getElementById(imdbID);
         if (article) {
           article.remove();
@@ -124,7 +135,9 @@ function deleteMovie(imdbID) {
 }
 
 function searchMovies(query) {
-  fetch(`/search?query=${encodeURIComponent(query)}`)
+  fetch(`/search?query=${encodeURIComponent(query)}`, {
+    credentials: 'same-origin'
+  })
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
@@ -136,7 +149,28 @@ function searchMovies(query) {
       // Task 2.2: Render the results returned from the server. Make sure to
       // include an "Add" button for each result that calls `addMovie(imdbID)` when clicked.
       // There is a second part to this task, in `addMovie`
+      if (!results || results.length === 0) {
+        const p = document.createElement('p');
+        p.textContent = messages.noResultsFound;
+        resultsDiv.appendChild(p);
+        return;
+      }
 
+      results.forEach(r => {
+        const row = document.createElement('div');
+        row.className = 'result-row';
+        row.dataset.imdbid = r.imdbID;
+
+        const info = document.createElement('span');
+        info.textContent = r.Title + (r.Year ? ' (' + r.Year + ')' : '');
+        row.appendChild(info);
+
+        const btn = document.createElement('button');
+        btn.textContent = 'Add';
+        btn.addEventListener('click', () => addMovie(r.imdbID));
+        row.appendChild(btn);
+        resultsDiv.appendChild(row);
+      });
     })
     .catch(error => {
       console.error('Search failed:', error);
@@ -147,7 +181,9 @@ function searchMovies(query) {
 
 window.onload = function () {
   // Check session
-  fetch("/session")
+  fetch("/session",{
+    credentials: 'same-origin'
+  })
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
@@ -170,7 +206,7 @@ window.onload = function () {
       // Task 1.2: Render a user greeting to `#userGreeting` 
       // using `firstName`, `lastName`, and the server-provided
       // login timestamp.
-      const { firstName = '', lastName = ''} = currentSession;
+      const { firstName = '', lastName = '' } = currentSession;
       const date = new Date(currentSession.loginTime);
 
       const lastDate = new Intl.DateTimeFormat('en-EN', {
@@ -185,7 +221,7 @@ window.onload = function () {
       }).format(date);
 
       greetingElement.textContent =
-        'Hello ' + firstName + ' ' + lastName + ', you have logged in on ' + lastDate +' at ' + lastTime +'.';
+        'Hello ' + firstName + ' ' + lastName + ', you have logged in on ' + lastDate + ' at ' + lastTime + '.';
 
     } else {
       greetingElement.textContent = messages.loggedOutGreeting;
@@ -202,7 +238,9 @@ window.onload = function () {
     if (currentSession) {
       authBtn.textContent = 'Logout';
       authBtn.onclick = () => {
-        fetch("/logout")
+        fetch("/logout", {
+          credentials: 'same-origin'
+        })
           .then(response => {
             if (response.ok) {
               currentSession = null;
@@ -243,15 +281,16 @@ window.onload = function () {
       //send login date to server
       const response = await fetch('/login', {
         method: 'POST',
+        credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({username, password})
+        body: JSON.stringify({ username, password })
       });
 
       //if login fails on server
-      if (!response.ok){
-        throw new Error ('Login failed');
+      if (!response.ok) {
+        throw new Error('Login failed');
       }
 
       //save session data, close login dialog & load user movies

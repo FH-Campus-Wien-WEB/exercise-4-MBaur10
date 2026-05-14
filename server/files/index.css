@@ -8,7 +8,7 @@ body {
 }
 
 article {
-  background-color: rgba(211, 211, 211, 0.9);
+  background-color: #FCBDD2ED;
   border-radius: 16px;
   padding: 16px;
   width: 384px;
@@ -17,6 +17,11 @@ article {
 
 article button {
   margin: 0px 2px;
+}
+
+article h1 {
+  font-family: 'Copperplate Gothic Light';
+  color: #372136;
 }
 
 main {
@@ -37,7 +42,7 @@ header h1{
   font-family: 'Copperplate Gothic Light';
   font-weight: 1000;
   font-size: 300%;
-  color: #f9a8ed;
+  color: #F997C0;
   margin: 8px 0px;
   border: none;
   box-shadow: none;
@@ -70,7 +75,7 @@ span {
   padding: 4px 8px;
   border: solid black 1px;
   border-radius: 6px;
-  background-color: darkgray;
+  background-color: #ffeee7;
   font-weight: bold;
 }
 
@@ -87,11 +92,11 @@ button {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background-color: #B68BB3;
+  background-color: #F997C0;
 }
 
 button:hover {
-  background-color: #eeb8e8;
+  background-color: #ffeee7;
   transform: translateY(-2px);
 }
 
