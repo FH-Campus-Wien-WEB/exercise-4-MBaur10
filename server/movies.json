@@ -1,59 +1,187 @@
 {
   "joe": {
-    "tt0167260": {
-      "imdbID": "tt0167260",
-      "Title": "The Lord of the Rings: The Return of the King",
-      "Released": "2003-12-16",
-      "Runtime": 201,
+    "tt5110282": {
+      "imdbID": "tt5110282",
+      "Title": "Sharknado: Heart of Sharkness",
+      "Released": "2015-10-05",
+      "Runtime": 83,
       "Genres": [
-        "Adventure",
-        "Drama",
-        "Fantasy"
+        "Comedy"
       ],
       "Directors": [
-        "Peter Jackson"
+        "Jeremy Wagener"
       ],
       "Writers": [
-        "J.R.R. Tolkien",
-        "Fran Walsh",
-        "Philippa Boyens"
+        "Jeremy Wagener"
       ],
       "Actors": [
-        "Elijah Wood",
-        "Viggo Mortensen",
-        "Ian McKellen"
+        "Jared Cohn",
+        "Zack Ward",
+        "Julie McCullough"
       ],
-      "Plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 94,
-      "imdbRating": 9
+      "Plot": "A 'mockumentary' about David Moore, the filmmaker who first dreamed of \"sharks in a tornado\" and brought on disaster by using real sharks. The first SHARKNADO was to be a movie never seen, a crime never reported, a tale never told...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIzOTg4ODExN15BMl5BanBnXkFtZTgwMDcxOTQwNzE@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 2.7
     },
-    "tt0903624": {
-      "imdbID": "tt0903624",
-      "Title": "The Hobbit: An Unexpected Journey",
-      "Released": "2012-12-13",
-      "Runtime": 169,
+    "tt0120082": {
+      "imdbID": "tt0120082",
+      "Title": "Scream 2",
+      "Released": "1997-12-11",
+      "Runtime": 120,
       "Genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "Directors": [
+        "Wes Craven"
+      ],
+      "Writers": [
+        "Kevin Williamson"
+      ],
+      "Actors": [
+        "Neve Campbell",
+        "Courteney Cox",
+        "David Arquette"
+      ],
+      "Plot": "A year after the Woodsboro murders, the survivors try to move on at Windsor College in Ohio-but when a new Ghostface killer starts a campus killing spree, they must face terror all over again.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODE5YWJkMDMtN2ZiNC00MjI5LTkxYTgtOTkyZjUwMjU0YThiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 62,
+      "imdbRating": 6.3
+    },
+    "tt9032400": {
+      "imdbID": "tt9032400",
+      "Title": "Eternals",
+      "Released": "2021-11-04",
+      "Runtime": 156,
+      "Genres": [
+        "Action",
         "Adventure",
         "Fantasy"
       ],
       "Directors": [
-        "Peter Jackson"
+        "Chloé Zhao"
       ],
       "Writers": [
-        "Fran Walsh",
-        "Philippa Boyens",
-        "Peter Jackson"
+        "Chloé Zhao",
+        "Patrick Burleigh",
+        "Ryan Firpo"
       ],
       "Actors": [
-        "Martin Freeman",
-        "Ian McKellen",
-        "Richard Armitage"
+        "Gemma Chan",
+        "Richard Madden",
+        "Angelina Jolie"
       ],
-      "Plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home and the gold within it from the dragon Smaug.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "Metascore": 58,
+      "Plot": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTBiZjI2M2UtZTNiNy00NmU4LWJiMjYtZjk4MDIzMzhlMjFlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 52,
+      "imdbRating": 6.2
+    },
+    "tt0325710": {
+      "imdbID": "tt0325710",
+      "Title": "The Last Samurai",
+      "Released": "2003-12-04",
+      "Runtime": 154,
+      "Genres": [
+        "Action",
+        "Drama"
+      ],
+      "Directors": [
+        "Edward Zwick"
+      ],
+      "Writers": [
+        "John Logan",
+        "Edward Zwick",
+        "Marshall Herskovitz"
+      ],
+      "Actors": [
+        "Tom Cruise",
+        "Ken Watanabe",
+        "Billy Connolly"
+      ],
+      "Plot": "In 19th century Japan, Nathan Algren, a US army captain, is hired by the Japanese emperor to train his army in the modern warfare techniques. Captain Algren finds himself trapped in a struggle between two eras and two worlds.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg",
+      "Metascore": 55,
       "imdbRating": 7.8
+    }
+  },
+  "jane": {
+    "tt0096283": {
+      "imdbID": "tt0096283",
+      "Title": "My Neighbor Totoro",
+      "Released": "1990-07-12",
+      "Runtime": 86,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Hayao Miyazaki"
+      ],
+      "Writers": [
+        "Hayao Miyazaki"
+      ],
+      "Actors": [
+        "Hitoshi Takagi",
+        "Noriko Hidaka",
+        "Chika Sakamoto"
+      ],
+      "Plot": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 87,
+      "imdbRating": 8.1
+    },
+    "tt0085959": {
+      "imdbID": "tt0085959",
+      "Title": "Monty Python's the Meaning of Life",
+      "Released": "1983-03-30",
+      "Runtime": 107,
+      "Genres": [
+        "Comedy",
+        "Musical"
+      ],
+      "Directors": [
+        "Terry Jones"
+      ],
+      "Writers": [
+        "Graham Chapman",
+        "John Cleese",
+        "Terry Gilliam"
+      ],
+      "Actors": [
+        "John Cleese",
+        "Terry Gilliam",
+        "Eric Idle"
+      ],
+      "Plot": "The comedy team takes a look at life in all of its stages in their own uniquely silly way.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmZjYzM5OGMtYmY2OS00YzQ3LWEzZjgtY2Q1Yjc1NTNkYTZiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 72,
+      "imdbRating": 7.5
+    },
+    "tt5613056": {
+      "imdbID": "tt5613056",
+      "Title": "Piper",
+      "Released": "2016-06-16",
+      "Runtime": 6,
+      "Genres": [
+        "Animation",
+        "Short",
+        "Family"
+      ],
+      "Directors": [
+        "Alan Barillaro"
+      ],
+      "Writers": [
+        "Alan Barillaro"
+      ],
+      "Actors": [
+        "Bui Quoc Huy Steve"
+      ],
+      "Plot": "A hungry sandpiper hatchling ventures from her nest for the first time to dig for food by the shoreline. The problem is, the food is buried in the sand where scary waves roll up.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDU1ZTYwNmYtNjM1Zi00NTlkLWI5ZmQtNjM2OWM0ZTMxYTFlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 8.3
     },
     "tt4772188": {
       "imdbID": "tt4772188",
@@ -83,115 +211,85 @@
       "Metascore": 87,
       "imdbRating": 7.9
     },
-    "tt0029583": {
-      "imdbID": "tt0029583",
-      "Title": "Snow White and the Seven Dwarfs",
-      "Released": "1938-02-03",
-      "Runtime": 83,
+    "tt0364385": {
+      "imdbID": "tt0364385",
+      "Title": "Ju-on: The Grudge",
+      "Released": "2003-01-24",
+      "Runtime": 92,
       "Genres": [
-        "Animation",
-        "Adventure",
-        "Family"
+        "Horror"
       ],
       "Directors": [
-        "William Cottrell",
-        "David Hand",
-        "Wilfred Jackson"
+        "Takashi Shimizu"
       ],
       "Writers": [
-        "Jacob Grimm",
-        "Wilhelm Grimm",
-        "Ted Sears"
+        "Takashi Shimizu"
       ],
       "Actors": [
-        "Adriana Caselotti",
-        "Harry Stockwell",
-        "Lucille La Verne"
+        "Megumi Okina",
+        "Misaki Itô",
+        "Misa Uehara"
       ],
-      "Plot": "Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwMzE2Mzc4M15BMl5BanBnXkFtZTcwMTE4NTc1Nw@@._V1_SX300.jpg",
-      "Metascore": 96,
-      "imdbRating": 7.6
-    },
-    "tt5613056": {
-      "imdbID": "tt5613056",
-      "Title": "Piper",
-      "Released": "2016-06-16",
-      "Runtime": 6,
-      "Genres": [
-        "Animation",
-        "Short",
-        "Family"
-      ],
-      "Directors": [
-        "Alan Barillaro"
-      ],
-      "Writers": [
-        "Alan Barillaro"
-      ],
-      "Actors": [
-        "Bui Quoc Huy Steve"
-      ],
-      "Plot": "A hungry sandpiper hatchling ventures from her nest for the first time to dig for food by the shoreline. The problem is, the food is buried in the sand where scary waves roll up.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNDU1ZTYwNmYtNjM1Zi00NTlkLWI5ZmQtNjM2OWM0ZTMxYTFlXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": null,
-      "imdbRating": 8.3
-    }
-  },
-  "jane": {
-    "tt1972591": {
-      "imdbID": "tt1972591",
-      "Title": "King Arthur: Legend of the Sword",
-      "Released": "2017-05-11",
-      "Runtime": 126,
-      "Genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "Directors": [
-        "Guy Ritchie"
-      ],
-      "Writers": [
-        "Joby Harold",
-        "Guy Ritchie",
-        "Lionel Wigram"
-      ],
-      "Actors": [
-        "Charlie Hunnam",
-        "Astrid Bergès-Frisbey",
-        "Jude Law"
-      ],
-      "Plot": "Robbed of his birthright, Arthur comes up the hard way in the back alleys of the city. But once he pulls the sword from the stone, he is forced to acknowledge his true legacy - whether he likes it or not.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjM3ODY3Njc5Ml5BMl5BanBnXkFtZTgwMjQ5NjM5MTI@._V1_SX300.jpg",
-      "Metascore": 41,
+      "Plot": "A mysterious and vengeful spirit marks and pursues anybody who dares enter the house in which it resides.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWE4NGE1NGYtMmRjNS00YjgyLTkxZmYtN2Y1OWY4MzcwMTgwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 48,
       "imdbRating": 6.7
     },
-    "tt0349683": {
-      "imdbID": "tt0349683",
-      "Title": "King Arthur",
-      "Released": "2004-07-06",
-      "Runtime": 126,
+    "tt0167260": {
+      "imdbID": "tt0167260",
+      "Title": "The Lord of the Rings: The Return of the King",
+      "Released": "2003-12-16",
+      "Runtime": 201,
       "Genres": [
-        "Action",
         "Adventure",
-        "Drama"
+        "Drama",
+        "Fantasy"
       ],
       "Directors": [
-        "Antoine Fuqua"
+        "Peter Jackson"
       ],
       "Writers": [
-        "David Franzoni"
+        "J.R.R. Tolkien",
+        "Fran Walsh",
+        "Philippa Boyens"
       ],
       "Actors": [
-        "Clive Owen",
-        "Stephen Dillane",
-        "Keira Knightley"
+        "Elijah Wood",
+        "Viggo Mortensen",
+        "Ian McKellen"
       ],
-      "Plot": "A demystified take on the tale of King Arthur and the Knights of the Round Table.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTk4MTk1NjI0OV5BMl5BanBnXkFtZTcwNDQxOTUyMQ@@._V1_SX300.jpg",
-      "Metascore": 46,
-      "imdbRating": 6.3
+      "Plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "Metascore": 94,
+      "imdbRating": 9
+    },
+    "tt0167261": {
+      "imdbID": "tt0167261",
+      "Title": "The Lord of the Rings: The Two Towers",
+      "Released": "2002-12-17",
+      "Runtime": 179,
+      "Genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "Directors": [
+        "Peter Jackson"
+      ],
+      "Writers": [
+        "J.R.R. Tolkien",
+        "Fran Walsh",
+        "Philippa Boyens"
+      ],
+      "Actors": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ],
+      "Plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
+      "Metascore": 87,
+      "imdbRating": 8.8
     }
   }
 }

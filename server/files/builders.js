@@ -115,12 +115,17 @@ export class MovieBuilder extends ElementBuilder {
     }
 
     this.append(
-        new ParagraphBuilder().items(
-          "Runtime " + formatRuntime(movie.Runtime),
-          "\u2022",
-          "Released on " + new Date(movie.Released).toLocaleDateString("en-US")
-        )
+      new ParagraphBuilder().items(
+        "Runtime " + formatRuntime(movie.Runtime),
+        "\u2022",
+        "Released on " + new Date(movie.Released).toLocaleDateString("en-US")
       )
+    )
+      .append(new ParagraphBuilder().childClass('rating').items(
+        "Metascore: " + (movie.Metascore ?? 'N/A'),
+        '•',
+        "IMDb Rating " + (movie.imdbRating != null ? Number(movie.imdbRating).toFixed(1) : 'N/A')
+      ))
       .append(new ParagraphBuilder().childClass("genre").items(movie.Genres))
       .append(new ElementBuilder("p").text(movie.Plot))
       .append(new ElementBuilder("h2").pluralizedText("Director", movie.Directors))
