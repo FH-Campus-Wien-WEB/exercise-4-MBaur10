@@ -32,6 +32,12 @@ display: block;
 border-radius: 8px;
 }
 
+article ul {
+list-style: disc;
+padding-left: 1.25rem;
+margin: 0.5rem 0;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
